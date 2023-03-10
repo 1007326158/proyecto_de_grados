@@ -1,0 +1,22 @@
+body,html{
+
+    background: beige;
+  
+}
+
+form{
+margin: auto;
+padding: 0;
+width: 200px;
+background: rgba(128, 128, 128, 0.752);
+border-radius: 10%;
+margin-top: 15%;
+
+
+}
+
+
+button{
+
+    background: rgb(157, 28, 28);
+}

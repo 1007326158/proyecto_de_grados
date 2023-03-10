@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link de conexion para carpeta bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- link de conexion para el css del registro -->
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <!-- Formulario de registro  -->
+
+    <form id="registro" action="registro_db.php" method="post" style="text-align:center" >
+        
+            <h1>REGISTRAR</h1>
+
+     <label>Nombre</label><br>   
+        <input type="text" placeholder="Ingrese su nombre" name="nombre" required></imput><br>
+
+    <label>Apellido</label><br>   
+        <input type="text" placeholder="Ingrese su Apellido" name="apellido" required></imput><br>
+
+    <label>Email</label><br>   
+        <input  type="email" placeholder="Ingrese su email" name="email" required></imput><br>
+
+     <label>Usuario</label><br>   
+        <input type="text" placeholder="Ingrese un Usuario" name="usuario" required></imput><br>
+
+    <label>contraseña</label><br>   
+        <input type="password" placeholder="Ingrese una clave" name="clave" required></imput><br> 
+        
+    <button value="Registrar" class="btn btn-outline-warning" >Registrar</button>
+    </form>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
